@@ -12,6 +12,8 @@ namespace HashTable
         {
             HashTableBuilder hashTable = new HashTableBuilder();
 
+            hashTable.Sentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
+            hashTable.WordToCheck = "paranoid";
             Console.WriteLine($"Frequency of word is {hashTable.FindFrequencyOfWord()}");
             Console.ReadLine();
         }
